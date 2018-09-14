@@ -7,13 +7,15 @@ We only know a little bit about the app, and that the previous engineer who depl
 So far we know:
 
 - It's a Python app
-- Theres some requirements and that it ran in Docker before
+- That it ran in a Docker container before
 - We can configure the container to listen on any port we like
 - It was based on the ```python:alpine``` docker image
+- There was mention of a requirements.txt file, and a ```pip install``` command?
 
 ### Steps
 
 - Clone this repository
 - Create a Dockerfile for this Python app
 - Build a container image with the Dockerfile
-- Run a container from the image and load the app in a browser
+- Run a container from the image and load the app in a browser to test
+- Tell our manager we're back online!
