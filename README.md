@@ -8,9 +8,9 @@ So far we know:
 
 - It's a Python app
 - That it ran in a Docker container before
-- We can configure the container to listen on any port we like
+- The network engineer said the container used to listen on port 5000/TCP, something about exposè, maybe they were french?
 - It was based on the ```python:alpine``` docker image
-- There was mention of a requirements.txt file, and a ```pip install``` command?
+- There was mention of a ```requirements.txt``` file, and a ```pip install``` command?
 
 ### Steps
 
