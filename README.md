@@ -13,5 +13,7 @@ So far we know:
 
 ### Steps
 
-- Build a Dockerfile for this Python app
+- Clone this repository
+- Create a Dockerfile for this Python app
+- Build a container image with the Dockerfile
 - Run a container from the image and load the app in a browser
