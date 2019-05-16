@@ -2,7 +2,7 @@
 
 Our manager has tasked us with a very important project, aparently customers are complaining that our Random Cat Generator has been down for some time. It's super urgent - Sev 1, interwebs down/down or something.
 
-We only know a little bit about the app, the previous engineer has rage quite and all we have is the source code and a few details.
+We only know a little bit about the app, the previous engineer has rage quit and all we have is the source code and a few details.
 
 So far we know:
 
