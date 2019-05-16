@@ -1,5 +1,11 @@
 from flask import Flask, render_template
 import random
+import signal
+import sys
+
+def exit_gracefully(signumber, frame):
+  print "Received signal", signumber, ", I\'m exiting..."
+  sys.exit()
 
 app = Flask(__name__)
 
@@ -31,4 +37,5 @@ def index():
     return render_template('index.html', url=url)
 
 if __name__ == "__main__":
+    signal.signal(signal.SIGTERM, exit_gracefully)
     app.run(host="0.0.0.0",threaded=True)
