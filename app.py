@@ -4,8 +4,8 @@ import signal
 import sys
 
 def exit_gracefully(signumber, frame):
-  print "Received signal", signumber, ", I\'m exiting..."
-  sys.exit()
+  print("Received signal", signumber, "cleaning up...")
+  sys.exit(0)
 
 app = Flask(__name__)
 
